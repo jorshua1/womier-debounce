@@ -1,0 +1,35 @@
+# Binaries & Object files
+*.o
+*.exe
+*.sys
+*.dll
+*.dat
+*.db
+*.pcapng
+*.lib
+womier-debounce
+diagnose-enter
+womier-sniffer
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Investigation scratch files
+DeviceDriver.exe
+XYUI.dll
+vhidflt.sys
+embedded.db
+womier.pcapng
+test_*.py
+sniff_*.py
+read_*.py
+diagnostic_*.py
+womier_rgb.py
+womier_web.py
+fix_uinput.sh
+diagnose-enter.c
+womier-sniffer.c
+PROTOCOLO_TECLADO_WOMIER.md
+/womier-debounce.c
+/womier-debounce.service

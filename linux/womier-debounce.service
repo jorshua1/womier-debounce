@@ -1,0 +1,12 @@
+[Unit]
+Description=Womier V-K66 Custom Low-Latency Debounce Daemon
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/home/jorshua/womier-debounce/womier-debounce
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
